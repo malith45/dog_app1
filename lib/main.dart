@@ -5,6 +5,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: const Color(0xff7BDFF2),
           title: const Center(
             child: Text(
               'Who are you Dawg?',
@@ -12,6 +13,8 @@ void main() {
             ),
           ),
         ),
+        body: const Center(child: Image(image: AssetImage('images/dog.jpg'))),
+        backgroundColor: const Color(0xffB2F7EF),
       ),
     ),
   );
